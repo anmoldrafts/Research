@@ -1,0 +1,47 @@
+body {
+    font-family: 'Your Chosen Font', sans-serif;
+    background: linear-gradient(to bottom right, #000033, #000);
+    color: white;
+}
+
+/* Styles for light mode */
+body.light-mode {
+    background: linear-gradient(to bottom right, #eeeeee, #fff);
+    color: #333;
+}
+
+/* Rest of your CSS for styling various elements */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+#theme-toggle {
+    display: flex;
+    align-items: center;
+}
+
+/* Additional styling for sections, footer, etc. */
+
+/* Dark Mode Icon */
+#moon-icon {
+    display: none;
+}
+
+body.dark-mode #moon-icon {
+    display: inline;
+}
+
+/* Light Mode Icon */
+body.light-mode #sun-icon {
+    display: none;
+}
